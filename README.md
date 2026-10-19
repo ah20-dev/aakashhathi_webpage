@@ -20,4 +20,4 @@ Do not add contact details or the original resume PDF; the portfolio intentional
 
 Preview locally: `python3 -m http.server 8765 --directory docs`, then visit `/`.
 
-University logo assets are sourced from the official Rutgers School of Engineering and NYU Tandon websites. Each logo links to the corresponding academic page.
+University names link to their corresponding academic pages.
