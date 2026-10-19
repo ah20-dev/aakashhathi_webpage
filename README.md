@@ -19,3 +19,5 @@ Dates follow owner-supplied timeframes for ToolScout and DesignFlow (2025–2026
 Do not add contact details or the original resume PDF; the portfolio intentionally omits location, phone, and email. External links open in a new tab. All content remains available with JavaScript disabled, and smooth scrolling respects reduced-motion preferences.
 
 Preview locally: `python3 -m http.server 8765 --directory docs`, then visit `/`.
+
+University logo assets are sourced from the official Rutgers School of Engineering and NYU Tandon websites. Each logo links to the corresponding academic page.

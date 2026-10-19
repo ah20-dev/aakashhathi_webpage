@@ -15,3 +15,7 @@ footer .contact-button{display:inline-flex;align-items:center;padding:11px 20px;
 @media(max-width:600px){.flow{flex-direction:column;align-items:flex-start;gap:12px}.flow b{transform:rotate(90deg);margin-left:4px}.flow>span{font-family:var(--font-body);font-size:var(--text-body)}.flow small{display:block;font-size:var(--text-label)}.year span{margin-left:8px}}
 
 .education a{text-decoration:underline;text-decoration-color:#bac4ae;text-underline-offset:4px}.education a:hover{text-decoration-color:currentColor}
+
+.education p{align-items:center}.education a{display:inline-flex;align-items:center;gap:18px}.university-logo{width:160px;height:44px;object-fit:contain;flex:none}.education p span{min-width:0}@media(max-width:600px){.education a{margin-top:10px;gap:14px}.university-logo{width:130px;height:40px}}
+
+.university-logo[src$="nyu-tandon.svg"]{background:#57068c;padding:8px;border-radius:3px}
