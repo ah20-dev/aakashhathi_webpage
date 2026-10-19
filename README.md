@@ -14,7 +14,7 @@ GitHub Pages publishes the `docs` directory on `main`. The repository root URL r
 - `docs/aakashhathi_webpage/style.css`: responsive layout and visual styling.
 - `docs/aakashhathi_webpage/script.js`: scroll progress and active timeline navigation.
 
-Project dates use public repository creation dates, not inferred launch dates. ToolScout appears separately as current work because a start date was not supplied. Career dates and achievements come from the supplied resume. Mechanical project links can be added to the final timeline entry when available.
+Dates follow owner-supplied timeframes for ToolScout and DesignFlow (2025–2026) and Agentic Newsletter (2025); other project dates use public repository creation dates. ToolScout is deployed to production. Career dates and achievements come from the supplied resume. Mechanical project links can be added to the final timeline entry when available.
 
 Do not add contact details or the original resume PDF; the portfolio intentionally omits location, phone, and email. External links open in a new tab. All content remains available with JavaScript disabled, and smooth scrolling respects reduced-motion preferences.
 
