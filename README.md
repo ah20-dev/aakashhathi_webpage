@@ -2,7 +2,7 @@
 
 A dependency-free, responsive portfolio for GitHub Pages.
 
-Live URL: https://ah20-dev.github.io/aakashhathi_webpage/
+Live URL: https://ah20-dev.github.io/journey/
 
 ## Hosting
 
