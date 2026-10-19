@@ -22,3 +22,8 @@ footer .contact-button{display:inline-flex;align-items:center;padding:11px 20px;
 
 /* Justify longer descriptive paragraphs while keeping the last line natural. */
 .intro p,.entry-body>p:not(.tagline):not(.stack),.current>p:not(.project-timeframe),.feature-note p,.mep p{text-align:justify;text-align-last:left;text-justify:inter-word;hyphens:auto}
+
+/* Consistent vector icons across desktop and mobile. */
+.arrow-icon{display:inline-block;width:18px;height:18px;flex:none;vertical-align:-3px}.links a,.feature-bottom a,.contact-button{display:inline-flex;align-items:center;gap:8px}.links a span{display:inline-flex;margin-left:0}.mechanical-projects a span,header nav a span,.flow b{display:inline-flex;align-items:center}.scroll-link .arrow-icon{width:20px;height:20px}.arrow-icon{pointer-events:none}
+/* A casual-copy deterrent, not a security boundary. */
+body{-webkit-user-select:none;user-select:none}input,textarea,[contenteditable="true"]{-webkit-user-select:text;user-select:text}

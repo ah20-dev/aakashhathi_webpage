@@ -26,3 +26,15 @@ if ('IntersectionObserver' in window) {
   }, { rootMargin: '-15% 0px -55% 0px' });
   document.querySelectorAll('.timeline > section[id]').forEach(section => observer.observe(section));
 }
+
+// Deter casual copying. Publicly served content remains accessible in page source.
+for (const eventName of ['copy', 'cut', 'contextmenu']) {
+  document.addEventListener(eventName, event => {
+    const target = event.target;
+    if (target instanceof Element && target.closest('input, textarea, [contenteditable="true"]')) return;
+    event.preventDefault();
+  });
+}
+document.addEventListener('dragstart', event => {
+  if (event.target instanceof Element && event.target.closest('img')) event.preventDefault();
+});
