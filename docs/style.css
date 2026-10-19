@@ -13,3 +13,5 @@ footer .contact-button{display:inline-flex;align-items:center;padding:11px 20px;
 /* Shared typography roles across sections. */
 .intro p,.entry-body p,.current>p,.feature-note p,.mep p,.education p{font-size:var(--text-body);line-height:1.75}.links,.scroll-link,.feature-bottom a,header nav a,footer .contact-button{font-size:var(--text-ui)}.entry-body .stack,.project-timeframe,.metrics span{font-size:var(--text-label)}.year span{display:inline-block}.section-label,.feature-bottom{flex-wrap:wrap}.current h2 span{font-size:var(--text-feature)}
 @media(max-width:600px){.flow{flex-direction:column;align-items:flex-start;gap:12px}.flow b{transform:rotate(90deg);margin-left:4px}.flow>span{font-family:var(--font-body);font-size:var(--text-body)}.flow small{display:block;font-size:var(--text-label)}.year span{margin-left:8px}}
+
+.education a{text-decoration:underline;text-decoration-color:#bac4ae;text-underline-offset:4px}.education a:hover{text-decoration-color:currentColor}
