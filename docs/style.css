@@ -19,3 +19,6 @@ footer .contact-button{display:inline-flex;align-items:center;padding:11px 20px;
 .education p{align-items:center}.education a{display:inline-flex;align-items:center;gap:12px}.university-logo{width:72px;height:26px;object-fit:contain;flex:none}.education p span{min-width:0}@media(max-width:600px){.education a{margin-top:10px;gap:14px}.university-logo{width:72px;height:26px}}
 
 .university-logo[src$="nyu-tandon.svg"]{background:#57068c;padding:4px;border-radius:3px}
+
+/* Justify longer descriptive paragraphs while keeping the last line natural. */
+.intro p,.entry-body>p:not(.tagline):not(.stack),.current>p:not(.project-timeframe),.feature-note p,.mep p{text-align:justify;text-align-last:left;text-justify:inter-word;hyphens:auto}
