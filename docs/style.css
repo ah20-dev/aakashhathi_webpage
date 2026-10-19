@@ -5,3 +5,5 @@ header nav a{display:inline-flex;align-items:center;gap:8px}header nav a svg{wid
 .feature-note{border-left:2px solid var(--accent);padding:13px 17px;margin:24px 0;background:rgba(217,232,161,.07)}.feature-note .eyebrow{color:var(--accent);font-size:10px}.feature-note p{font-size:13px;color:#ced8ce;margin:7px 0 0}.feature-note strong{color:#f5f7ec;font-weight:600}
 
 .mechanical-projects{margin-top:27px}.mechanical-projects h4{font-family:monospace;font-size:10px;font-weight:400;text-transform:uppercase;letter-spacing:1px;margin:0 0 10px}.mechanical-projects ul{list-style:none;margin:0;padding:0}.mechanical-projects li{border-bottom:1px solid var(--line)}.mechanical-projects a{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:13px 0;font-size:14px}.mechanical-projects a span{color:var(--muted)}
+
+footer .contact-button{display:inline-flex;align-items:center;padding:11px 20px;border-radius:6px;background:var(--ink);color:var(--paper);font-size:13px}footer .contact-button:hover{background:#3d594d;color:white}
