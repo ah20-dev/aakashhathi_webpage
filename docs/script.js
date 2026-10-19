@@ -1,3 +1,19 @@
+// Refresh starts at the top; fresh anchor links and in-page navigation still work.
+const isPageReload = performance.getEntriesByType('navigation')[0]?.type === 'reload';
+if (isPageReload) {
+  history.scrollRestoration = 'manual';
+  if (location.hash) {
+    history.replaceState(history.state, '', location.pathname + location.search);
+  }
+  window.addEventListener('pageshow', () => {
+    window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
+    requestAnimationFrame(() => {
+      window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
+      history.scrollRestoration = 'auto';
+    });
+  }, { once: true });
+}
+
 const progress = document.querySelector('.progress');
 let queued = false;
 function updateProgress() {
