@@ -29,3 +29,6 @@ footer .contact-button{display:inline-flex;align-items:center;padding:11px 20px;
 body{-webkit-user-select:none;user-select:none}input,textarea,[contenteditable="true"]{-webkit-user-select:text;user-select:text}
 
 .example-output{margin-top:24px;border:1px solid var(--line);border-radius:4px;padding:16px 20px}.example-output summary{cursor:pointer;font-size:var(--text-ui);font-weight:600}.example-output summary:focus-visible{outline:3px solid #6b8129;outline-offset:5px}.example-output dl{font-size:var(--text-ui);margin:18px 0}.example-output dl>div{display:flex;justify-content:space-between;gap:16px;padding:8px 0;border-bottom:1px solid var(--line)}.example-output dd{margin:0;white-space:nowrap}.example-output .example-note{font-size:var(--text-label);text-align:left}
+
+/* On phones, wrap whole words instead of automatic hyphenation. */
+@media(max-width:600px){.intro p,.entry-body>p:not(.tagline):not(.stack),.current>p:not(.project-timeframe),.feature-note p,.mep p{-webkit-hyphens:none;hyphens:none;word-break:normal;overflow-wrap:normal}}
